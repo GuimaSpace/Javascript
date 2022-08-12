@@ -1,0 +1,166 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+body{
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pkm-logo{
+    height: 500px;
+    width: 760px;
+
+}
+.escolha-pkm{
+    color: white;
+}
+#vida-oponente{
+    height: 20px;
+    width: 200px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;   
+    background-color: rgb(120, 255, 120);
+}
+.vida-meu-pkm-slot{
+    height: 20px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 20px;   
+    background-color: rgb(120, 255, 120);www
+}
+.pkm-op-escolha{
+    height: 150px;
+}
+.seu-pkm{
+height: 150px;
+}
+.fundo-pkm-op{
+    display: flex;
+    height: 150px;
+    width: 300px;
+    border-bottom: 20px solid rgb(83, 52, 0);
+    background-color: rgb(59, 125, 15);
+    border-radius: 50%;
+}
+.fundo-seu-pkm{
+    border-bottom:20px solid rgb(83, 52, 0);
+    background-color: rgb(59, 125, 15);
+    border-radius: 50%;
+}
+#vida-meu-pkm{
+    height: 20px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 20px;   
+    background-color: rgb(120, 255, 120);
+}
+#campo-batalha{
+    background-size: cover;
+}
+.nome-lvl-op{
+    width: 300px;
+    background-color: rgb(237, 237, 237);
+    width: 350px;
+    border: 3px solid black;
+    border-radius: 20px 0px 20px 0px;
+    margin-left: 100px;
+}
+/* .linha-oponente{
+    background-color: rgb(168, 168, 168);
+    width: 350px;
+    border: 3px solid black;
+    border-radius: 20px 0px 20px 0px;
+    margin-left: 100px;
+} */
+.pkmbutton{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    color: white;
+    text-align: center;
+/*     filter: brightness(.3); */
+}
+.nomes{
+    background-color: rgb(67, 67, 67);
+    border: 1px solid rgb(41, 41, 41);  
+}
+.pokemons{
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(41, 41, 41);
+    padding: 20px;
+    width: 800px;
+}
+.debug{
+    background-color: rgba(240, 248, 255, 0);
+    border: rgba(255, 255, 255, 0);
+    color: white;
+}
+.red{
+    color: red;
+}
+.title{
+    padding: 20px;
+}
+.pokebola{
+    height: 100px;
+    width: 100px;
+}
+textarea{
+    background-color: rgba(137, 43, 226, 0.182);
+    color: rgba(255, 255, 255, 0.41);
+    border: 2px solid rgba(0, 0, 0, 0.186);
+    text-align: center;
+}
+.jogador1{
+    text-align: center;
+}
+.jogador2{
+    text-align: center;
+}
+.menu-ataques{
+    background-color: rgba(137, 43, 226, 0.182);
+    border-radius: 20px 0px 20px 0px;
+    padding: 50px;
+    
+}
+.col-5, .col-3, .col-2{
+    border: 1px solid rgba(255, 255, 255, 0.073);
+}
+.logs-acao{
+    color: white;
+}
+.button-seu-pkm{
+    background-color: rgba(0, 0, 0, 0.305);
+    border: 1px solid rgba(0, 0, 0, 0.305);
+    border-radius: 20px 0px 20px 0px;
+    padding: 20px;
+    color: white;
+    width: 200px;
+    height: 90px;
+}
+.seu-pkm-frente{
+    margin-top: 100px;
+    height: 160px;
+}
+.branco{
+    color: white;
+}
+.money-icon{
+    height: 50px;
+    width: 50px;  
+}
+.mochila-icon{
+    height: 50px;
+    width: 50px;
+}
+.mochila{
+    width: 960px;
+}
+.loja{
+    background-color: rgba(255, 255, 255, 0.162);
+    border-radius: 10px;
+    padding: 20px;
+}
+.espaco{
+    margin-left: 2;
+}
+.loja-baixo{
+    margin-top: 20px;
+}
