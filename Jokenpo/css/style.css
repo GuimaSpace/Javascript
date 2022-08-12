@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(126deg, rgba(236,255,0,1) 0%, rgba(255,209,0,1) 35%, rgba(255,98,0,1) 100%);
+    overflow: hidden;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0);
+    animation: animate 0.1s linear infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.logo{
+text-align: center;
+height: 120px;
+margin-top: 70px;
+}
+.col-md{
+    margin-top: 200px;
+}
+.icon{
+    height: 150px;
+    width: 150px;
+    transition: 0.3s;
+    
+}
+.icon:hover{
+    transition: 0.3s;
+    -webkit-transform:rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); 
+}
+.jg1{
+    font-size: 30px;
+text-align: center;
+padding-top: 50px;
+}
+button{
+    border: 0px;
+    background: rgba(255, 255, 255, 0);
+}
+.botaoresultado{
+ margin-top: 2px;
+margin-left: 300px;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.244);
+    transition: 0.3s;
+}
+
+@font-face {
+    font-family: Old-Japan;
+    src: url(../font/OldJapanese.otf)
+  }
+.nome,.versus{
+    font-size: 60px;
+    font-family: Old-Japan;
+    text-align: center;
+}
+
+.p1{
+    color: aqua; 
+}
+.p2{
+    color: red; 
+}
+/* .col,.col-2,.col-5{
+    border: 1px solid black;
+} */
+.borda{
+    border-radius: 2px;
+background-color: rgba(255, 255, 255, 0.244);
+    border: 1px solid rgb(0, 0, 0);
+}
+.placar{
+    width: 550px;
+}
+.pontos{
+    font-size: 50px;
+    font-family: Old-Japan;
+}
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}

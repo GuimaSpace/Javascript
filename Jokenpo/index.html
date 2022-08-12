@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけんぽん</title>
+</head>
+<body>
+        <ul class="background">
+            <div class="div">
+                <img src="imgs/Logo.png" alt="logo" class="position-absolute top-0 start-50 translate-middle logo">
+                <div class="container">  
+                    <!-- Jogador 1 -->      
+                    <div class="row">
+                        
+                        <div class="col-md jg1"><img src="imgs/jg1.png" class="floating"></div>
+                        <div class="col-md">
+                           <button onclick="pedra();">
+                            <img src="imgs/pedra.png" alt="pedra" class="icon">
+                            </button>
+                        </div>
+                        <div class="col-md">
+                            <button onclick="papel();">
+                                <img src="imgs/papel.png" alt="papel" class="icon">
+                                </button>
+                        </div>
+                        <div class="col-md">
+                            <button onclick="tesoura();">
+                                <img src="imgs/tesoura.png" alt="tesoura" class="icon">
+                                </button>
+                        </div>
+
+                        <!-- Jogador 2 -->
+                        <div class="row">
+                            <div class="col-md jg1">
+                             <img src="imgs/jg2.png" class="floating">   
+                            </div>
+                            <div class="col-md">
+                               <button onclick="pedra2();">
+                                <img src="imgs/pedra.png" alt="pedra" class="icon">
+                                </button>
+                            </div>
+                            <div class="col-md">
+                                <button onclick="papel2();">
+                                    <img src="imgs/papel.png" alt="papel" class="icon">
+                                    </button>
+                            </div>
+                            <div class="col-md">
+                                <button onclick="tesoura2();">
+                                    <img src="imgs/tesoura.png" alt="tesoura" class="icon">
+                                    </button>
+                            </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-2 placar pontos borda">
+                            Ponto:<label id="placar-p1">0</label>
+                        </div>
+                        <div class="col-1 versus borda">
+                            <label class="versus">X</label>
+                        </div>
+                        <div class="col-2 placar pontos borda">
+                            Ponto: <label id="placar-p2">0</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2 placar borda">
+                            <label id="nome-p1" class="nome p1"></label> 
+                        </div>
+                        <div class="col-1 versus borda">
+                            <label class="versus">X</label>
+                        </div>
+                        <div class="col-2 placar borda">
+                            <label id="nome-p2" class="nome p2"></label> 
+                        </div>
+                    </div>
+                        <button onclick="resultado();" class="botaoresultado">Resultado</button>
+                        <button onclick="resetar();" class="botaoresultado">Resetar</button>
+
+                </div>
+                          
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+
+            </div>
+         </ul>
+    <!-- JS -->
+    <script src="js/joken.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
