@@ -1,2 +1,2 @@
-![Javascript](https://repository-images.githubusercontent.com/414716217/7e79469d-8b7b-47b1-9afc-ab916dee50a8)
+<img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" />
 # Meus projetos com estudos de Javascript no curso
